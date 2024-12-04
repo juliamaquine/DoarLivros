@@ -1,0 +1,54 @@
+.primeiraSessaoInicio {
+    height: 75vh;
+    background-image: url('../../assets/Fundolivros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        color: #fff;
+        font-size: 32px;
+        width: 25%;
+        margin: 12vh;
+    }
+}
+
+
+.segundaSessaoInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 75vh;
+
+    h2 {
+        font-size: 40px;
+        color: #005695;
+        width: 90%;
+    }
+}
+
+.cardsMotivos {
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+
+    section {
+        background-color: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+
+        p {
+            font-size: 22px;
+            text-align: center;
+            width: 95%;
+
+        }
+
+    }
+
+}
