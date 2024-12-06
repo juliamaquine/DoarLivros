@@ -19,18 +19,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 75vh;
+    height: 85vh;
 
     h2 {
-        font-size: 40px;
+        font-size: 48px;
         color: #005695;
-        width: 90%;
+        width: 98%;
+        margin: 5vh;
+
     }
 }
 
 .cardsMotivos {
     display: flex;
-    height: 50vh;
+    height: 44vh;
     justify-content: space-evenly;
 
     section {
@@ -49,6 +51,51 @@
 
         }
 
+    }
+
+}
+
+@media (max-width: 790px) {
+    .primeiraSessaoInicio {
+        background-position: center;
+        height: 45vh;
+
+        h2 {
+            width: 90%;
+            font-size: 98%;
+            text-align: center;
+        }
+    }
+
+    .segundaSessaoInicio {
+        height: 70vh;
+     
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+    }
+
+    .cardsMotivos {
+        width: 60vh;
+        flex-direction: column;
+        align-items: center;
+
+        section {
+            width: 60%;
+            height: 20vh;
+
+            p {
+                font-size: 15px;
+            }
+
+            img {
+
+                width: 15%;
+            }
+
+        }
     }
 
 }
