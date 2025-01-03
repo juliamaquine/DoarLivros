@@ -1,0 +1,101 @@
+.primeiraSessaoInicio {
+    height: 75vh;
+    background-image: url('../../assets/Fundolivros.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        color: #fff;
+        font-size: 32px;
+        width: 25%;
+        margin: 12vh;
+    }
+}
+
+
+.segundaSessaoInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 85vh;
+
+    h2 {
+        font-size: 48px;
+        color: #005695;
+        width: 98%;
+        margin: 5vh;
+
+    }
+}
+
+.cardsMotivos {
+    display: flex;
+    height: 44vh;
+    justify-content: space-evenly;
+
+    section {
+        background-color: #0157944D;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+
+        p {
+            font-size: 22px;
+            text-align: center;
+            width: 95%;
+
+        }
+
+    }
+
+}
+
+@media (max-width: 790px) {
+    .primeiraSessaoInicio {
+        background-position: center;
+        height: 45vh;
+
+        h2 {
+            width: 90%;
+            font-size: 98%;
+            text-align: center;
+        }
+    }
+
+    .segundaSessaoInicio {
+        height: 70vh;
+     
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+    }
+
+    .cardsMotivos {
+        width: 60vh;
+        flex-direction: column;
+        align-items: center;
+
+        section {
+            width: 60%;
+            height: 20vh;
+
+            p {
+                font-size: 15px;
+            }
+
+            img {
+
+                width: 15%;
+            }
+
+        }
+    }
+
+}

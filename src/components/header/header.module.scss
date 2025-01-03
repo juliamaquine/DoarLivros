@@ -1,0 +1,96 @@
+.header {
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    height: 15vh;
+
+}
+
+.logoHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20%;
+
+    h1 {
+        font-size: 25px;
+    }
+}
+
+
+.navHeader {
+    width: 30%;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    .Link {
+        color: #ffff;
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+
+.barraDePesquisa {
+    border: solid 1px #fff;
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-right: 1%;
+
+    input {
+        background-color: transparent;
+        border: none;
+        width: 60%;
+        outline: none;
+
+
+        &::placeholder {
+            color: #fff;
+            font-size: 15px;
+        }
+
+    }
+
+    button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+
+    }
+}
+
+
+@media(max-width:790px) {
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+
+    }
+
+    .logoHeader {
+        width: 60%;
+
+        h1 {
+            font-size: 22px;
+        }
+    }
+
+    .navHeader {
+        width: 95%;
+    }
+
+    .barraDePesquisa {
+        display: none;
+    }
+
+}
